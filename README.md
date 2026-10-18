@@ -2,6 +2,8 @@
 
 A locally hosted reverse-engineering game about fictional 1997–2003 shareware.
 
+![Cracklab ’97 showing the disassembler, vintage registration dialog, CPU state, and patch editor](docs/images/cracklab.png)
+
 ## Play locally
 
 Double-click `start-local.cmd`, or run `npm run dev` from this folder, then open http://localhost:3000. Node 22.13+ is required. If the port is occupied, use the local URL printed by the server. The server binds to loopback. Stop it with Ctrl+C. Dependencies are already installed; after installation the game itself requires no external service or font downloads.
